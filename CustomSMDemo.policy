@@ -1,0 +1,4 @@
+grant {
+    permission java.io.FilePermission "Data.txt" , "read";
+    permission java.util.PropertyPermission "user.dir", "read";
+}
